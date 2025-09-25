@@ -28,7 +28,7 @@ def change(amount):
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Greedy Algorithms"}
+    return {"message": "Hello there, Greedy Algorithms"}
 
 @app.get("/change/{dollar}/{cents}")
 async def changeit(dollar: int, cents: int):
